@@ -1,0 +1,30 @@
+/*
+Made by: Michelle Wang, Jasmine Chan, Ratnaganadi Paramita
+COGS 187A Winter 2014
+
+TABLE OF CONTENTS
+1. General
+2. HTML Elements
+Footer
+
+
+*/
+
+
+/*
+1. GENERAL
+============================================ */
+
+
+html, body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+@font-face {
+  font-family: Bebas Neue; src: url('BebasNeue.otf');
+}
+
+.bebas {
+	font-family: Bebas Neue, sans-serif;
+}
