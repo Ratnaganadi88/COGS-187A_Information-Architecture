@@ -12,30 +12,54 @@
 		<link href="css/bootstrap.css" rel="stylesheet">
 		<link href= "css/home.css" rel = "stylesheet">
 	</head>
-	<body>
-	    <div id = "container">
-			<!--TOP navigation-->
-			<div class = "page-header">
-			  <ul class ="list-inline">
-				<li><a href = "#"><h5>Students</h5></a></li>
-				<li><a href = "#"><h5>Parents</h5></a></li>
-				<li><a href = "#"><h5>Alumni</h5></a></li>
-			  </ul>
+<body>
+      <div class = "container"> <!--start of container-->
 
-			  <form class="navbar-form navbar-right" role="search">
-				<div class="form-group">
-				  <input type="text" class="form-control" placeholder="Search">
-				</div>
-				<button type="submit" class="btn btn-default">Submit</button>
-			  </form>
-			  <img src = "img/logo.png" id = "logo">
+        <!--TOP navigation-->
 
-			</div>
+        <nav class="navbar navbar-inverse" role="navigation">
+          <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav">
+                <li><a href="#">Students</a></li>
+                <li><a href="#">Faculty/Staff</a></li>
+                <li><a href="#">Alumni</a></li>
+              </ul>
+
+              <form class="navbar-form navbar-right" role="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" placeholder="Search">
+                </div>
+                <button type="submit" class="btn btn-default">Submit</button>
+              </form>
+              
+            </div><!-- /.navbar-collapse -->
+          </div><!-- /.container-fluid -->
+        </nav>
+
+        <!--/TOP navigation-->
+
+        <div class = "page-header">
+          
+          <a href = "home.html"><img src = "img/logo.png" id = "logo"></a>
+
+        </div>
 
 			<!--/TOP navigation-->
 	
 			<!--MAIN navigation-->
-			<ul class="nav nav-tabs">
+			<ul class="nav nav-tabs nav-justified">
 			  <li class="active"><a href="#about" data-toggle="tab">About</a></li>
 			  <li><a href="#admissions" data-toggle="tab">Admissions</a></li>
 			  <li><a href="#academics" data-toggle="tab">Academics</a></li>
@@ -56,11 +80,6 @@
 					</div>
 					<div class="content">
 						<img id="content-pic" src="img/about-3.jpg"/>
-<!-- 
-						<div id="facts">
-							<div class="box-header">Facts</div>
-						</div>
- -->
 						<h4 id="content-text-top">An Enterprising Urban Research University</h4>
 						<p>Georgia State University, an enterprising urban public research university, is a national leader in graduating students from widely diverse backgrounds. Centered in the historic financial hub of downtown Atlanta, the university provides more than 32,000 students with unsurpassed connections to the city’s business, government, nonprofit and cultural organizations.</p>
 						<p>The university offers 55 undergraduate and graduate degree programs in more than 250 fields of study in its eight colleges and schools: the Andrew Young School of Policy Studies, the Byrdine F. Lewis School of Nursing and Health Professions, the College of Arts and Sciences, the College of Education, the College of Law, the Honors College, the Institute of Public Health and the J. Mack Robinson College of Business.</p>
@@ -119,13 +138,6 @@
 			<div class="footer-div">
 				<h6> Georgia State University <br></br> Atlanta. CA 30302 <br></br> (404) 413-2000 </h6>
 			</div>
-<!-- 
-			<div id="social-media">
-				<div class="icons"><a href="http://www.youtube.com/channel/UCpDtOZmGitIVXytVrjJL7LQ"><img src="img/youtube.png"/></a></div>
-				<div class="icons"><a href="https://www.facebook.com/GeorgiaStateUniversity"><img src="img/facebook.png"/></a></div>
-				<div class="icons"><a href="https://twitter.com/GeorgiaStateU"><img src="img/twitter.png"/></a></div>
-			</div>
- -->
 			<div id="social-media">
 				<a href="http://www.youtube.com/channel/UCpDtOZmGitIVXytVrjJL7LQ"><img src="img/youtube.png"/></a>
 				<a href="https://www.facebook.com/GeorgiaStateUniversity"><img src="img/facebook.png"/></a>

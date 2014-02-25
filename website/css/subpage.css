@@ -23,7 +23,7 @@ a{
 	font-size: 24px;
 }
 #navleft{
-	width: 200px;
+	width: 17%;
 	height: 230px;
 	display:inline-block;
 	float:left;
@@ -54,7 +54,7 @@ a{
 }
 
 .content{
-	width: 900px;
+	width: 78%;
 	height: 100%;
 	float:left;
 	margin-left:25px;
