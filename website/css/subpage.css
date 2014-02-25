@@ -1,14 +1,10 @@
 a{
 	text-decoration: none;
 }
-#head{
-	max-width: 1022px;
-	height: 100px;
-	background-color: #042caa;
-	text-align:center;
-	margin:auto;
-}
 
+#logo{
+	display:block;
+}
 #content-container div{
 	max-width: 100%;
 }
