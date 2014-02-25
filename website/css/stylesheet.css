@@ -28,3 +28,14 @@ html, body {
 .bebas {
 	font-family: Bebas Neue, sans-serif;
 }
+
+div.one {
+width:50%;
+float:left;
+}
+
+div.two {
+width:50%
+float:right;
+margin-left:50%;
+}
