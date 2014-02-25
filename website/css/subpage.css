@@ -29,7 +29,6 @@ a{
 	float:left;
 	margin-left: 20px;
 	padding-top: 15px;
-/* 	border: 1px solid #999999; */
 	border-radius: 4px;
 	background-color: #e6f8fc;/* d7f7ff; */
 	
@@ -44,12 +43,7 @@ a{
 	border-radius: 5px;
 }
 
-.navlinks,
-.navlinks:visited{
-	color:#222222;
-}
-.navlinks:hover,
-.navlinks:active{
+.navlinks:hover{
 	color: #c63838;
 }
 
