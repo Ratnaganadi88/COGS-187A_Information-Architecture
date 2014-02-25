@@ -13,34 +13,56 @@
 		<link href= "css/home.css" rel = "stylesheet">
 	</head>
 	<body>
-	    <div id = "container">
-			<!--TOP navigation-->
-			<div class = "page-header">
-			  <ul class ="list-inline">
-				<li><a href = "#"><h5>Students</h5></a></li>
-				<li><a href = "#"><h5>Parents</h5></a></li>
-				<li><a href = "#"><h5>Alumni</h5></a></li>
-			  </ul>
+      <div class = "container"> <!--start of container-->
 
-			  <form class="navbar-form navbar-right" role="search">
-				<div class="form-group">
-				  <input type="text" class="form-control" placeholder="Search">
-				</div>
-				<button type="submit" class="btn btn-default">Submit</button>
-			  </form>
-			  <img src = "img/logo.png" id = "logo">
+        <!--TOP navigation-->
 
-			</div>
+        <nav class="navbar navbar-inverse" role="navigation">
+          <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav">
+                <li><a href="#">Students</a></li>
+                <li><a href="#">Faculty/Staff</a></li>
+                <li><a href="#">Alumni</a></li>
+              </ul>
+
+              <form class="navbar-form navbar-right" role="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" placeholder="Search">
+                </div>
+                <button type="submit" class="btn btn-default">Submit</button>
+              </form>
+              
+            </div><!-- /.navbar-collapse -->
+          </div><!-- /.container-fluid -->
+        </nav>
+
+        <!--/TOP navigation-->
+
+        <div class = "page-header">
+          
+          <a href = "home.html"><img src = "img/logo.png" id = "logo"></a>
 
 			<!--/TOP navigation-->
 	
 			<!--MAIN navigation-->
-			<ul class="nav nav-tabs">
-			  <li class="active"><a href="#about" data-toggle="tab">About</a></li>
-			  <li><a href="#admissions" data-toggle="tab">Admissions</a></li>
-			  <li><a href="#academics" data-toggle="tab">Academics</a></li>
-			  <li><a href="#research" data-toggle="tab">Research</a></li>
-			  <li><a href="#campuslife" data-toggle="tab">Campus Life</a></li>
+			<ul class="nav nav-tabs nav-justified">
+			  <li><a href="#about" data-toggle="tab"><a href = "about.html">About</a></a></li>
+			  <li><a href="#admissions" data-toggle="tab"><a href = "admissions.html">Admissions</a></a></li>
+			  <li class="active"><a href="#academics" data-toggle="tab"><a href = "academics.html">Academics</a></a></li>
+			  <li><a href="#research" data-toggle="tab"><a href = "research.html">Research</a></a></li>
+			  <li><a href="#campuslife" data-toggle="tab"><a href = "campuslife.html">Campus Life</a></a></li>
 			</ul>
 
 			<div class="tab-content">
@@ -48,7 +70,7 @@
 			  	<div id="content-container">
 			  		<div id="content-header"><p>Academics</p></div>
 					<div id="navleft">
-						<div class="subnav"><a class="navlinks" href="#degreeprograms" data-toggle="tab"><p>Degree Programs</p></a></div>
+						<div class="subnav"><a class="navlinks" href="#degreeprograms" data-toggle="tab"><p>Programs of Study</p></a></div>
 						<div class="subnav"><a class="navlinks" href="#school" data-toggle="tab"><p>School/Colleges</p></a></div>
 						<div class="subnav"><a class="navlinks" href="#calendar" data-toggle="tab"><p>Academic Calendar</p></a></div>
 						<div class="subnav"><a class="navlinks" href="#library" data-toggle="tab"><p>Library</p></a></div>
@@ -56,8 +78,27 @@
 											</div>
 					<div class="content">
 						<img id="content-pic" src="img/about-3.jpg"/>
+<!-- 
+						<div id="facts">
+							<div class="box-header">Facts</div>
+						</div>
+ -->
 						<h4 id="content-text-top">"GSU's academic environment inspires students and scholars to ask key questions and uncover unexpected results"-GSU student</h4>
-						<p>Georgia State offers nearly 140 academic programs across its eight colleges, schools and institutes. A number of these programs and other university initiatives set the university apart from other urban public research universities, and we invite you to check out Georgia State’s Points of Distinction. Georgia State is a national leader in graduating students from diverse backgrounds and has achieved national recognition for its commitment to students’ successful progress toward graduation. Among its most popular majors are: accounting, finance, marketing and managerial services, biology, computer information systems/computer sciences, journalism, film and video, and psychology. The university also has a growing research portfolio, and is pioneering a number of interdisciplinary initiatives that include advanced brain imaging, diagnostics and therapeutics, atypical development and learning, and language research. The provost is the chief academic and chief operations officer of this university. The academic deans, the vice president for research and economic development, as well as student affairs, and the directors for centers and institutes, initiatives and programs report to Dr. Risa Palm. Administrative leaders for for academic programs and enrollment, information systems and technology, institutional effectiveness, international initiatives, the ombudsperson and opportunity development/Affirmative Action also report to the provost. The budgets of all of these units flow through the Office of the Provost. Palm chairs the University Senate Fiscal Advisory Committee to the President, the Capital Budget and Space Allocation Committee, the Dean’s Council and the Enrollment Management Subcommittee. </p>
+						<p>Georgia State offers nearly 140 academic programs across its eight colleges, schools and institutes. A number of these programs and other university initiatives set the university apart from other urban public research universities, and we invite you to check out Georgia State’s Points of Distinction.
+
+						Georgia State is a national leader in graduating students from diverse backgrounds and has achieved national recognition for its commitment to students’ successful progress toward graduation.
+
+						Among its most popular majors are: accounting, finance, marketing and managerial services, biology, computer information systems/computer sciences, journalism, film and video, and psychology. The university also has a growing research portfolio, and is pioneering a number of interdisciplinary initiatives that include advanced brain imaging, diagnostics and therapeutics, atypical development and learning, and language research.
+
+						The provost is the chief academic and chief operations officer of this university.
+
+						The academic deans, the vice president for research and economic development, as well as student affairs, and the directors for centers and institutes, initiatives and programs report to Dr. Risa Palm.
+
+						Administrative leaders for for academic programs and enrollment, information systems and technology, institutional effectiveness, international initiatives, the ombudsperson and opportunity development/Affirmative Action also report to the provost.
+
+						The budgets of all of these units flow through the Office of the Provost. Palm chairs the University Senate Fiscal Advisory Committee to the President, the Capital Budget and Space Allocation Committee, the Dean’s Council and the Enrollment Management Subcommittee.
+
+						</p>
 						
 					</div>
 			  	</div>
@@ -68,50 +109,6 @@
 			  <div class="tab-pane" id="campuslife">...</div>
 			</div>
 		</div>
-		<footer>
-			<div class="footer-div-a">
-				<ul class ="footer-lists">
-					<li><a href = "#"><h6>Students</h6></a></li>
-					<li><a href = "#"><h6>Parents</h6></a></li>
-					<li><a href = "#"><h6>Alumni</h6></a></li>
-					<li><a href = "#"><h6>Faculty</h6></a></li>
-					<li><a href = "#"><h6>Visitors</h6></a></li>
-				</ul>							
-			</div>
-			<div class="footer-div">
-				<ul class ="footer-lists">
-					<li><a href = "#"><h6>About</h6></a></li>
-					<li><a href = "#"><h6>Admissions</h6></a></li>
-					<li><a href = "#"><h6>Academics</h6></a></li>
-					<li><a href = "#"><h6>Research</h6></a></li>
-					<li><a href = "#"><h6>Campus Life</h6></a></li>
-				</ul>
-			</div>
-			<div class="footer-div">
-				<img src="img/logo.png">
-			</div>
-			<div class="footer-div-a">
-				<ul class ="footer-lists">
-					<li><a href = "#"><h6>Search</h6></a></li>
-					<li><a href = "#"><h6>Directory</h6></a></li>
-					<li><a href = "#"><h6>Maps</h6></a></li>
-					<li><a href = "#"><h6>Contact</h6></a></li>
-					<li><a href = "#"><h6>Emergency info</h6></a></li>
-				</ul>
-			</div>
-			<div class="footer-div">
-				<h6> Georgia State University <br></br> Atlanta. CA 30302 <br></br> (404) 413-2000 </h6>
-			</div>
-			<div id="social-media">
-				<a href="http://www.youtube.com/channel/UCpDtOZmGitIVXytVrjJL7LQ"><img src="img/youtube.png"/></a>
-				<a href="https://www.facebook.com/GeorgiaStateUniversity"><img src="img/facebook.png"/></a>
-				<a href="https://twitter.com/GeorgiaStateU"><img src="img/twitter.png"/></a>
-			</div>
-
-			<div id="copyright">
-				<p> &copy 2014 Georgia State University </p8>
-			</div>
-		</footer>
     	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 		<!-- Include all compiled plugins (below), or include individual files as needed -->
