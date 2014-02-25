@@ -9,6 +9,7 @@
     <!-- Bootstrap -->
     <link href="css/bootstrap.css" rel="stylesheet">
 
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -18,66 +19,179 @@
 
     <link href= "css/home.css" rel = "stylesheet">
   </head>
+
+
     <body>
-      <div id = "container">
+      <div class = "container"> <!--start of container-->
 
         <!--TOP navigation-->
-        <div class = "page-header">
-          <ul class ="list-inline">
-            <li><a href = "#"><h5>Students</h5></a></li>
-            <li><a href = "#"><h5>Parents</h5></a></li>
-            <li><a href = "#"><h5>Alumni</h5></a></li>
-          </ul>
 
-          <form class="navbar-form navbar-right" role="search">
-            <div class="form-group">
-              <input type="text" class="form-control" placeholder="Search">
+        <nav class="navbar navbar-inverse" role="navigation">
+          <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
             </div>
 
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav">
+                <li><a href="#">Students</a></li>
+                <li><a href="#">Faculty/Staff</a></li>
+                <li><a href="#">Alumni</a></li>
+              </ul>
 
-            <button type="submit" class="btn btn-default">Submit</button>
-          </form>
-
-          <img src = "img/logo.png" id = "logo">
-
-        </div>
+              <form class="navbar-form navbar-right" role="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" placeholder="Search">
+                </div>
+                <button type="submit" class="btn btn-default">Submit</button>
+              </form>
+              
+            </div><!-- /.navbar-collapse -->
+          </div><!-- /.container-fluid -->
+        </nav>
 
         <!--/TOP navigation-->
-        
-        <!--MAIN navigation-->
-        <ul class="nav nav-tabs">
-          <li class="active"><a href="#about" data-toggle="tab">About</a></li>
-          <li><a href="#admissions" data-toggle="tab">Admissions</a></li>
-          <li><a href="#academics" data-toggle="tab">Academics</a></li>
-          <li><a href="#research" data-toggle="tab">Research</a></li>
-          <li><a href="#campuslife" data-toggle="tab">Campus Life</a></li>
-        </ul>
 
-        <div class="tab-content">
-          <div class="tab-pane active" id="about">...</div>
-          <div class="tab-pane" id="admissions">...</div>
-          <div class="tab-pane" id="academics">...</div>
-          <div class="tab-pane" id="research">...</div>
-          <div class="tab-pane" id="campuslife">...</div>
+        <div class = "page-header">
+          
+          <a href = "home.html"><img src = "img/logo.png" id = "logo"></a>
+
         </div>
 
+        <!--/header-->
 
+        <!--MAIN navigation-->
+        <div>
+          <ul class="nav nav-tabs nav-justified">
 
-        
+            <li class = "dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#about">
+                About
+              </a>
+              <ul class="dropdown-menu" role = "menu">
+                <li><a href= "#">History</a></li>
+                <li><a href= "#">Administration</a></li>
+                <li><a href= "#">Directories</a></li>
+                <li><a href= "#">Policies</a></li>
+                <li><a href= "#">Contact Georgia State</a></li>
+              </ul>
+            </li>
 
+            <li class = "dropdown">
+              <a href="#admissions" class="dropdown-toggle" data-toggle="dropdown">
+                Admissions 
+              </a>
+              <ul class="dropdown-menu">
+                <li><a href= "#">Undergraduate Programs</a></li>
+                <li><a href= "#">Graduate Programs</a></li>
+                <li><a href= "#">Student Affairs</a></li>
+                <li><a href= "#">Financial Aid</a></li>
+                <li><a href= "#">Apply Now</a></li>
+              </ul>
+            </li>
+
+            <li class = "dropdown">
+              <a href="#academics" class="dropdown-toggle" data-toggle="dropdown">
+                Academics 
+              </a>
+              <ul class="dropdown-menu">
+                <li><a href= "#">Degree Programs</a></li>
+                <li><a href= "#">Library</a></li>
+                <li><a href= "#">School/Colleges</a></li>
+                <li><a href= "#">Summer Term</a></li>
+                <li><a href= "#">Academic Calendar</a></li>
+              </ul>
+            </li>
+
+            <li class = "dropdown">
+              <a href="#research" class="dropdown-toggle" data-toggle="dropdown">
+                Research 
+              </a>
+              <ul class="dropdown-menu">
+                <li><a href= "#">Research at GSU</a></li>
+                <li><a href= "#">Institutes & Centers</a></li>
+                <li><a href= "#">Funding</a></li>
+                <li><a href= "#">Opportunities</a></li>
+                <li><a href= "#">News</a></li>
+              </ul>
+            </li>
+
+            <li class = "dropdown">
+              <a href="#campuslife" class="dropdown-toggle" data-toggle="dropdown">
+                Campus Life 
+              </a>
+              <ul class="dropdown-menu">
+                <li><a href= "#">Get Involved</a></li>
+                <li><a href= "#">Student Activites</a></li>
+                <li><a href= "#">Athletics</a></li>
+                <li><a href= "#">Housing and Dining</a></li>
+                <li><a href= "#">Safety</a></li>
+              </ul>
+            </li>
+
+          </ul>
+        </div>
         <!--/MAIN navigation-->
 
 
 
         <!--main body-->
 
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+          </ol>
 
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner">
+
+            <div class="item active">
+              <img data-src="holder.js/900x500/auto/#666:#444/text:First slide" alt="First slide" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNTAwIj48cmVjdCB3aWR0aD0iOTAwIiBoZWlnaHQ9IjUwMCIgZmlsbD0iIzY2NiI+PC9yZWN0Pjx0ZXh0IHRleHQtYW5jaG9yPSJtaWRkbGUiIHg9IjQ1MCIgeT0iMjUwIiBzdHlsZT0iZmlsbDojNDQ0O2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1zaXplOjU2cHg7Zm9udC1mYW1pbHk6QXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWY7ZG9taW5hbnQtYmFzZWxpbmU6Y2VudHJhbCI+U2Vjb25kIHNsaWRlPC90ZXh0Pjwvc3ZnPg==">
+              
+            </div>
+
+
+            
+          </div>
+
+          <!-- Controls -->
+          <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+          </a>
+          <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+          </a>
+        </div>
+
+
+       
         <!--/main body-->
-      </div>
+
+        <!--Footer-->
+
+
+
+
+        <!--/Footer-->
+
+
+
+      </div> <!--end of container-->
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+
   </body>
 </html>
