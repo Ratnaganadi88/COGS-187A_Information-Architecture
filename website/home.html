@@ -4,6 +4,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Information Architecture Assignment">
+    <meta name="author" content="Jasmine Chan, Ratnaganadi Paramita, and Michelle Wang">
     <title>Georgia State University</title>
 
     <!-- Bootstrap -->
@@ -24,7 +26,7 @@
     <![endif]-->
 
 
-
+    <link type="text/css" rel="stylesheet" href="css/subpage.css"/>
     <link href= "css/home.css" rel = "stylesheet">
   </head>
 
@@ -52,6 +54,7 @@
                 <li><a href="#">Students</a></li>
                 <li><a href="#">Faculty/Staff</a></li>
                 <li><a href="#">Alumni</a></li>
+                <li><a href="#">Parents</a></li>
               </ul>
 
               <form class="navbar-form navbar-right" role="search">
@@ -69,7 +72,7 @@
 
         <div class = "page-header">
           
-          <a href = "home.html"><img src = "img/logo.png" id = "logo"></a>
+          <center><a href = "home.html"><img src = "img/logo.png" id = "logo"></a></center>
 
         </div>
 
@@ -80,10 +83,11 @@
           <ul class="nav nav-tabs nav-justified">
 
             <li class = "dropdown">
-              <a class="dropdown-toggle" data-toggle="dropdown" href="#about">
-                <a href = "about.html">About</a>
+             <a class="dropdown-toggle" data-toggle="dropdown" href="about.html">
+                About
               </a>
               <ul class="dropdown-menu" role = "menu">
+                <li> <a href = "about.html">About</a></li>
                 <li><a href= "#">History</a></li>
                 <li><a href= "#">Administration</a></li>
                 <li><a href= "#">Directories</a></li>
@@ -94,11 +98,12 @@
 
             <li class = "dropdown">
               <a href="#admissions" class="dropdown-toggle" data-toggle="dropdown">
-                <a href = "admissions.html">Admissions </a>
+                Admissions
               </a>
               <ul class="dropdown-menu">
+                <li> <a href = "admissions.html">Admissions</a></li>
                 <li><a href= "#">Undergraduate Programs</a></li>
-                <li><a href= "#">Graduate Programs</a></li>
+                <li><a href= "graduatead.html">Graduate Programs</a></li>
                 <li><a href= "#">Student Affairs</a></li>
                 <li><a href= "#">Financial Aid</a></li>
                 <li><a href= "#">Apply Now</a></li>
@@ -107,12 +112,14 @@
 
             <li class = "dropdown">
               <a href="#academics" class="dropdown-toggle" data-toggle="dropdown">
-                <a href = "academics.html">Academics </a>
+                Academics
               </a>
               <ul class="dropdown-menu">
-                <li><a href= "#">Degree Programs</a></li>
+                <li><a href = "academics.html">Academics</a></li>
+                <li><a href= "degreeprog.html">Programs of Study</a></li>
+                
+                <li><a href= "#">Department/Colleges</a></li>
                 <li><a href= "#">Library</a></li>
-                <li><a href= "#">School/Colleges</a></li>
                 <li><a href= "#">Summer Term</a></li>
                 <li><a href= "#">Academic Calendar</a></li>
               </ul>
@@ -120,11 +127,13 @@
 
             <li class = "dropdown">
               <a href="#research" class="dropdown-toggle" data-toggle="dropdown">
-                <a href = "research.html">Research </a>
+                Research
               </a>
               <ul class="dropdown-menu">
-                <li><a href= "#">Research at GSU</a></li>
+                <li><a href = "research.html">Research</a></li>
                 <li><a href= "#">Institutes & Centers</a></li>
+                <li><a href= "#">Faculty Research</a></li>
+                
                 <li><a href= "#">Funding</a></li>
                 <li><a href= "#">Opportunities</a></li>
                 <li><a href= "#">News</a></li>
@@ -133,10 +142,11 @@
 
             <li class = "dropdown">
               <a href="#campuslife" class="dropdown-toggle" data-toggle="dropdown">
-                <a href = "campus.html">Campus Life </a>
+                Campus Life
               </a>
               <ul class="dropdown-menu">
-                <li><a href= "#">Get Involved</a></li>
+                <li><a href = "campuslife.html">Campus Life</a></li>
+                <li><a href= "getinvolv.html">Get Involved</a></li>
                 <li><a href= "#">Student Activites</a></li>
                 <li><a href= "#">Athletics</a></li>
                 <li><a href= "#">Housing and Dining</a></li>
@@ -204,6 +214,7 @@
 
         <div class = "row">
           <div class="col-md-3" id = "news"><h3>News</h3>
+            <img src = "img/news.jpg">
           </div>
 
           <div class="col-md-3" id = "events"><h3>Events</h3>
@@ -222,9 +233,16 @@
           </div>
 
           <div class="col-md-3" id = "community"><h3>Community</h3>
+            <img src = "img/community.jpg">
           </div>
 
           <div class="col-md-3" id = "explore"><h3>Explore</h3>
+            <div id = "explore-info">
+              <h4><a href = "http://map.gsu.edu/">Campus Map</a></h4>
+              <h4><a href = "http://welcome.gsu.edu/campus-visits/daily-tours/">Visit</a></h4>
+              <h4>Who We Are</h4>
+            </div>
+
           </div>
 
         </div>
@@ -242,6 +260,58 @@
 
 
       </div> <!--end of container-->
+
+      <footer>
+      <div class="footer-div-a">
+        <ul class ="footer-lists">
+          <li><a href = "#"><h6>Students</h6></a></li>
+          <li><a href = "#"><h6>Parents</h6></a></li>
+          <li><a href = "#"><h6>Alumni</h6></a></li>
+          <li><a href = "#"><h6>Faculty</h6></a></li>
+          <li><a href = "#"><h6>Visitors</h6></a></li>
+        </ul>             
+      </div>
+      <div class="footer-div">
+        <ul class ="footer-lists">
+          <li><a href = "#"><h6>About</h6></a></li>
+          <li><a href = "#"><h6>Admissions</h6></a></li>
+          <li><a href = "#"><h6>Academics</h6></a></li>
+          <li><a href = "#"><h6>Research</h6></a></li>
+          <li><a href = "#"><h6>Campus Life</h6></a></li>
+        </ul>
+      </div>
+      <div class="footer-div">
+        <img src="img/logo.png">
+      </div>
+      <div class="footer-div-a">
+        <ul class ="footer-lists">
+          <li><a href = "#"><h6>Search</h6></a></li>
+          <li><a href = "#"><h6>Directory</h6></a></li>
+          <li><a href = "#"><h6>Maps</h6></a></li>
+          <li><a href = "#"><h6>Contact</h6></a></li>
+          <li><a href = "#"><h6>Emergency info</h6></a></li>
+        </ul>
+      </div>
+      <div class="footer-div">
+        <h6> Georgia State University <br></br> Atlanta. CA 30302 <br></br> (404) 413-2000 </h6>
+      </div>
+<!-- 
+      <div id="social-media">
+        <div class="icons"><a href="http://www.youtube.com/channel/UCpDtOZmGitIVXytVrjJL7LQ"><img src="img/youtube.png"/></a></div>
+        <div class="icons"><a href="https://www.facebook.com/GeorgiaStateUniversity"><img src="img/facebook.png"/></a></div>
+        <div class="icons"><a href="https://twitter.com/GeorgiaStateU"><img src="img/twitter.png"/></a></div>
+      </div>
+ -->
+      <div id="social-media">
+        <a href="http://www.youtube.com/channel/UCpDtOZmGitIVXytVrjJL7LQ"><img src="img/youtube.png"/></a>
+        <a href="https://www.facebook.com/GeorgiaStateUniversity"><img src="img/facebook.png"/></a>
+        <a href="https://twitter.com/GeorgiaStateU"><img src="img/twitter.png"/></a>
+      </div>
+
+      <div id="copyright">
+        <p> &copy 2014 Georgia State University </p8>
+      </div>
+    </footer>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
